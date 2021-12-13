@@ -122,10 +122,6 @@ open class SizDsp {
 
 public extension Array {
     
-    subscript(at index: Index) -> Element? {
-        return indices.contains(index) ? self[index] : nil
-    }
-    
     /// Arrayから、where条件と一致する要素を探して、その要素のIndexだけを収集する
     /// - Parameter where: 条件
     /// - Returns: Array of Index
