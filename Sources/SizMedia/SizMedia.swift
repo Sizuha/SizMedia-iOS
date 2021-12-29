@@ -2,7 +2,6 @@ import Foundation
 import AVFoundation
 import Accelerate
 import UIKit
-import Photos
 
 /// Audioデータ（wav）をロードする。
 /// - Parameters:
